@@ -8,7 +8,7 @@
 .button{
   font-size: 1.5rem;
   position: absolute;
-  padding: 10px 125px 10px 125px;
+  padding: 10px 125px 10px 115px;
   border: 5px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 45%);
