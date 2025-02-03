@@ -1,0 +1,27 @@
+.page-enter {
+    opacity: 0;
+    transform: translateY(25px);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    text-align: center;
+}
+
+.screen {
+    position: fixed; /* Ensures it covers the whole viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background-image: url('./quest1.jpg'); /* Ensure correct path */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
