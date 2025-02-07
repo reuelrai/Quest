@@ -11,7 +11,7 @@ function FirstQuest() {
     return (
         <div className="screen">
             <div className={animate ? "page-enter-active" : "page-enter"}>
-                <h1>First Quest</h1>
+                <h1>Introduction</h1>
                 <p>Your adventure begins now!</p>
             </div>
         </div>
