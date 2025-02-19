@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./quest.css"; // Import only here
 import { useNavigate } from "react-router-dom";
 
 function FirstQuest() {
