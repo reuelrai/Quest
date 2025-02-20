@@ -15,7 +15,7 @@ function FirstQuest() {
             <div className={animate ? "page-enter-active" : "page-enter"}>
                 <h1>WELCOME</h1>
                 <p>Your adventure begins now!</p>
-                <button onClick={()=> navigate("/play")}>Next</button>
+                <button onClick={()=> navigate("/next")}>Next</button>
             </div>
         </div>
     );

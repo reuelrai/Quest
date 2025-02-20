@@ -7,14 +7,14 @@ import Time from "./assets/components/time.jsx";
 function App() {
   return(
     <>
-    
+    <Time />
       <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quest" element={<Quest />} />
       </Routes>
     </Router>
-    <Time />
+    
     
     </>
   );
