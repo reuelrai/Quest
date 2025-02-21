@@ -12,10 +12,10 @@ function FirstQuest() {
 
     return (
         <div className="screen">
-            <div className={animate ? "page-enter-active" : "page-enter"}>
+            <div className="page-enter-active">
                 <h1>WELCOME</h1>
                 <p>Your adventure begins now!</p>
-                <button onClick={()=> navigate("/next")}>Next</button>
+                <button onClick={()=> navigate("/page2")}>Next</button>
             </div>
         </div>
     );

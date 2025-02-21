@@ -5,10 +5,22 @@
   transform: translate(-50%, -50%);
 }
 
+.screen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-enter-active{
+  justify-items: center;
+  align-items: center;
+}
+
 .button{
   font-size: 1.5rem;
   position: absolute;
-  padding: 10px 125px 10px 115px;
+  padding: 10px 140px 10px 140px;
   border: 5px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 45%);
