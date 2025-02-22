@@ -15,7 +15,7 @@ function FirstQuest() {
             <div className="page-enter-active">
                 <h1>WELCOME</h1>
                 <p>Your adventure begins now!</p>
-                <button onClick={()=> navigate("/page2")}>Next</button>
+                <button onClick={()=> navigate("/third")}>Next</button>
             </div>
         </div>
     );

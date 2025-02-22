@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
-import Home from './assets/components/home.jsx';
-import Page1 from "./assets/components/page1.jsx";
+import FirstPage from './assets/components/firstPage.jsx';
+import SecondPage from "./assets/components/secondPage.jsx";
 import Time from "./assets/components/time.jsx";
-import Page2 from "./assets/components/page.jsx";
+import ThirdPage from "./assets/components/thirdPage.jsx";
 
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
     <Time />
       <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/quest" element={<Page1 />} />
-        <Route path="/page2" element={<Page2 />} />
+        <Route path="/" element={<FirstPage />} />
+        <Route path="/second" element={<SecondPage />} />
+        <Route path="/third" element={<ThirdPage />} />
         
       </Routes>
     </Router>
