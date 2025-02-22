@@ -1,26 +1,26 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
-import FirstPage from './assets/components/firstPage.jsx';
-import SecondPage from "./assets/components/secondPage.jsx";
-import Time from "./assets/components/time.jsx";
-import ThirdPage from "./assets/components/thirdPage.jsx";
-
+import Card from "./assets/components/card.jsx";
 
 function App() {
-  return(
+  return (
     <>
-    <Time />
-      <Router>
-      <Routes>
-        <Route path="/" element={<FirstPage />} />
-        <Route path="/second" element={<SecondPage />} />
-        <Route path="/third" element={<ThirdPage />} />
-        
-      </Routes>
-    </Router>
-    
-    
+      <div className="first-container">
+        <h1>Comments</h1>
+        <div className="second-container">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </div>
     </>
+
   );
 }
 

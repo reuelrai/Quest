@@ -1,35 +1,51 @@
-.container {
+html{
+  background-color: black;
   position: absolute;
-  left: 50%;
+  top: 0;
+  left: 0;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.screen {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.page-enter-active{
-  justify-items: center;
-  align-items: center;
-}
-
-.button{
-  font-size: 1.5rem;
-  position: re;
-  padding: 10px 140px 10px 140px;
-  border: 5px;
-  border-radius: 10px;
-  background-color: hsl(0, 0%, 45%);
-  color: white;
-  border-color: red;
+.first-container{
   
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 10%);
+  margin: 50px 100px 50px 100px;
+  border-radius: 30px;
+  padding: 20px; 
+  justify-content: center;
+  text-align: center;
 }
 
-.button:hover{
-  background-color: hsl(0, 0%, 18%);
-  cursor: pointer;
+
+.second-container{
+  position: relative;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 10%);
 }
+
+
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border:none;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, .1);
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  font-family: "Sriracha", serif;
+  background: linear-gradient(to bottom, hsla(120, 100%, 28%, 1) 25%, hsl(120, 100%, 30%) 10%);
+  color: white;
+  transform: rotate(1deg);
+}
+
+
