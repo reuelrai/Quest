@@ -1,37 +1,10 @@
-html{
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.first-container{
-  
-  position: relative;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(0, 0%, 10%);
-  margin: 50px 100px 50px 100px;
-  border-radius: 30px;
-  padding: 20px; 
-  justify-content: center;
+:root {
+  font-family: 'Sriracha', cursive;
+  color: white;
+  background-color: hsl(0, 0%, 0%);
   text-align: center;
+  padding: 20px;
 }
-
-
-.second-container{
-  position: relative;
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(0, 0%, 10%);
-}
-
-
 .card{
   border: 1px solid hsl(0, 0%, 80%);
   border:none;
@@ -46,6 +19,17 @@ html{
   background: linear-gradient(to bottom, hsla(120, 100%, 28%, 1) 25%, hsl(120, 100%, 30%) 10%);
   color: white;
   transform: rotate(1deg);
+}
+
+.container{
+  background-color: hsl(0, 0%, 10%);
+  height: 100%;
+  border-radius: 25px;
+  padding: 10px 25px 10px 25px;
+}
+.container h1{
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 
